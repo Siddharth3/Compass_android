@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:padding="@dimen/dimen_10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_300"
+        android:layout_gravity="center">
+
+        <com.siddharth.compass.Compass
+            style="@style/match_match"
+            android:layout_centerInParent="true"
+            app:degree_color="@color/blue"
+            app:needle="@drawable/ic_needle_2"
+            app:degrees_step="5"
+            app:orientation_labels_color="@color/red"
+            app:show_degree_value="true"
+            app:show_orientation_labels="true"
+            app:show_border="false"
+            app:degree_value_color="@color/colorAccent"
+            app:border_color="@color/red"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.siddharth.compass.CompassSkeleton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match"
+    android:id="@+id/compass_skeleton"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/iv_needle"
+        android:src="@drawable/ic_needle"
+        style="@style/match_match"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:id="@+id/data_layout"
+        style="@style/wrap_wrap"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_degree"
+            style="@style/wrap_wrap"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+
+</com.siddharth.compass.CompassSkeleton>
